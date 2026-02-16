@@ -3,7 +3,15 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange.svg)](https://xgboost.readthedocs.io/)
 [![DuckDB](https://img.shields.io/badge/Data_Engine-DuckDB-yellow.svg)](https://duckdb.org/)
+[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg)](https://www.kaggle.com/competitions/home-credit-default-risk/data)
 
+### 📊 Origen de los Datos
+El dataset utilizado es el **Home Credit Default Risk**, el cual presenta un desafío de clasificación altamente desbalanceado con una estructura relacional de 4 tablas:
+
+- **application_{train|test}**: Tabla principal con datos de la solicitud.
+- **bureau**: Historial del cliente en otras instituciones financieras.
+- **previous_application**: Solicitudes previas dentro de la misma entidad.
+- **installments_payments**: Historial de pagos detallado.
 
 📂 Descripción del Proyecto
 Este proyecto simula un entorno de producción bancaria para predecir el default de clientes. Se utilizaron datos de aplicaciones, historial en Buró de Crédito, pagos previos y rechazos internos para construir un modelo de scoring robusto.
