@@ -76,15 +76,6 @@ Para determinar el umbral de decisión, se utilizó el **Estadístico KS**, esta
 * **✅ Eficiencia de Aprobación (Verdaderos Negativos):** El modelo permitió el flujo operativo de **35,971** clientes con alta probabilidad de pago, asegurando la generación de ingresos por intereses.
 * **⚠️ Control de Falsos Negativos:** Se minimizó la filtración de morosos a solo **1,463** casos, logrando una tasa de captura de morosidad (Recall) del **70.53%**.
 
-## 💰 Impacto de Negocio
-
-Utilizando el punto de corte (threshold) óptimo de **0.488**, el modelo genera el siguiente valor:
-
-| Concepto | Resultado | Impacto |
-| :--- | :---: | :--- |
-| **Clientes Sanos Aprobados** | 35,971 | Flujo de interés activo |
-| **Defaults Evitados** | 3,502 | Ahorro de capital |
-| **Detección de Morosidad** | 70.5% | Reducción de cartera vencida |
 
 ## ⚙️ Ficha Técnica del Modelo (Model Specifications)
 
